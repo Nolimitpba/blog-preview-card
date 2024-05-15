@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: hsl(47, 88%, 63%);
+  font-family: "Figtree", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-div{
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 7%);
+    border-radius: 20px;
+    box-shadow: 7px 7px;
+    padding: 25px;
+    margin: 10% auto;
+    width: 400px;
+    height: auto;
+    transition: all 0.5s ease-in-out;
+}
+
+p{
+    font-size: 16px;
+}
+.header{
+    background-color:hsl(47, 88%, 63%) ;
+    text-align: center;
+    width: 90px;
+    margin: 15px 0;
+    padding: 5px;
+    border-radius: 3px;
+    font-weight: 800;
+}
+
+.header2{
+    font-size: 25px;
+    font-weight: 800;
+    margin: 15px 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.header2:hover{
+    cursor: pointer;
+    color:hsl(47, 88%, 63%) ;
+}
+
+.des-para{
+    color: hsl(0, 0%, 50%) ;
+    margin-bottom: 20px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+}
+
+.greg-img{
+    width: 30px;
+    height: 30px;
+}
+
+.name{
+    margin-left: 5px;
+    font-size: 15px;
+    font-weight: 800;
+}
